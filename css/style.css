@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+/* ------Navigation/Menu del--------*/
+nav {
+    background-color: green;
+}
+
+.logo,
+.menu {
+    display: inline-block;
+}
+
+.logopic {
+    margin: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.logopic{
+    width: 60%;
+    
+}
+
+.logopic:hover{
+    transform: scale(1.1);
+    
+    transition: 0.7s;
+}
+
+.logopic a {
+    text-decoration: none;
+}
+
+.logopic a:visited {
+    color: black
+}
+
+.menu {
+    float:right;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 27px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-family: cursive;
+    font-size: 22px;
+    color: black;
+    border-style: solid;
+    border-color: #982328;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+/*----------Header del -----------*/
+
+header {
+    background-image: url(../images/roadlarge.jpg);
+    height: 500px;
+    background-size: cover;
+    background background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position-y: -160px;
+}
+
+header h1 {
+    font-family: sans-serif
+}
+
+/*header p {
+    margin: 0px;
+    font-size: px;
+} ------eventuelt titel på hero^-----*/
+
+.heroSplash {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.buttonContact {
+    background-color: #82d982;
+    color: #982328;
+    display: inline-block;
+    padding: 30px 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: cursive;
+    border-style: solid
+}
+
+.buttonContact:hover {
+    background-color: aliceblue;
+    color: #982328;
+    transition: all 0.5s ease;
+}
