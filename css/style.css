@@ -433,3 +433,18 @@ header h1 {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+
+/* mediakanal posts */
+
+/* projekt posts: */
+
+.postSection {
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    color: #982328;
+}
+
+iframe{
+width: 100%
+}
