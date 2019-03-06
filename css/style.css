@@ -124,20 +124,20 @@ header h1 {
 
 /*---------- Om odense zoo -----------*/
 
-.aboutMe {
+.aboutZoo {
     width: 100%;
     padding-top: 70px;
     padding-bottom: 70px;
     font-family: cursive;
 }
 
-.aboutMe:after {
+.aboutZoo:after {
     content: "";
     display: block;
     clear: both;
 }
 
-.aboutMe h2 {
+.aboutZoo h2 {
     color: #333;
     text-align: center;
     text-transform: uppercase;
@@ -147,7 +147,7 @@ header h1 {
     
 }
 
-.aboutMe h2:after {
+.aboutZoo h2:after {
     content: "";
     position: absolute;
     width: 80px;
@@ -158,13 +158,13 @@ header h1 {
     background-color: #60c960;
 }
 
-.aboutMe .collumnLeft {
+.aboutZoo .collumnLeft {
     padding-left: 5%;
     padding-right: 5%;
     
 }
 
-.aboutMe a {
+.aboutZoo a {
     background-color: #60c960;
     padding: 10px 20px;
     text-decoration: none;
@@ -175,18 +175,18 @@ header h1 {
     border-style: solid;
 }
 
-.aboutMe a:hover {
+.aboutZoo a:hover {
     background-color: white;
     transition: all 0.5s ease;
     border-style: solid;
 }
 
-.aboutMe .collumnLeft, .aboutMe .collumnRight {
+.aboutZoo .collumnLeft, .aboutMe .collumnRight {
     width: 45%;
     float: left;
 }
 
-.aboutMe .collumnLeft img {
+.aboutZoo .collumnLeft img {
     max-width: 100%;
 }
 
