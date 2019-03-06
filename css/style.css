@@ -87,6 +87,7 @@ header {
     background-size: cover;
     background background-repeat:no-repeat;
     background-position-y: -205px;
+    color: #982328;
 }
 
 header h1 {
@@ -127,7 +128,7 @@ header h1 {
     width: 100%;
     padding-top: 70px;
     padding-bottom: 70px;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 .aboutMe:after {
@@ -140,8 +141,9 @@ header h1 {
     color: #333;
     text-align: center;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: cursive;
     position: relative;
+    color: #982328;
     
 }
 
@@ -167,7 +169,7 @@ header h1 {
     padding: 10px 20px;
     text-decoration: none;
     color: #982328;
-    font-family: sans-serif;
+    font-family: cursive;
     display: inline-block;
     font-weight: bold;
     border-style: solid;
@@ -195,12 +197,13 @@ header h1 {
     padding-top: 45px;
     padding-bottom: 45px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 .zooNews h2 {
     text-transform: uppercase;
     position: relative;
+    color: #982328;
 }
 
 .zooNews h2:after {
@@ -219,6 +222,11 @@ header h1 {
     display: block;
     clear: both;
 }
+.zooNews h4{
+    font-size: 18px;
+
+    
+}
 
 .zooNews .newsOne, .zooNews .newsTwo, .zooNews .newsThree {
     width: 33.333333333%;
@@ -233,6 +241,10 @@ header h1 {
     height: 333px;
 }
 
+.newsOne .newsTwo .newsThree. p {
+    font-family: cursive;
+}
+
 .newsTwo img {
     border: solid;
     height: 333px;
@@ -243,4 +255,181 @@ header h1 {
     height: 333px;
 }
 
+/* prisliste */ 
 
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    background-color: 
+
+}
+
+.priceheader{
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    position: relative;
+    color: #982328;
+}
+
+.priceheader:after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -8px;
+    background-color: #60c960;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #60c960;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* footer */ 
+
+.footerMain{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px cursive;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footerMain .footer-left,
+.footerMain .footer-center,
+.footerMain .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footerMain .footer-left{
+	width: 40%;
+    
+}
+
+.footerMain .footer-left img {
+    width: 40
+}
+
+/* Footer Center */
+
+.footerMain .footer-center{
+	width: 35%;
+}
+
+.footerMain .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footerMain .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footerMain .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footerMain .footer-center p a{
+	color:  #60c960;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footerMain .footer-right{
+	width: 20%;
+}
+
+.footerMain .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footerMain .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footerMain .footer-icons{
+	margin-top: 25px;
+}
+
+.footerMain .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
