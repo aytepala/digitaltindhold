@@ -7,6 +7,9 @@ body {
     margin: 0;
 }
 
+/* scroll fra køb nu til priser */
+html { scroll-behavior: smooth}
+
 /* ------Navigation/Menu del--------*/
 nav {
     background-color: #60c960;
@@ -102,7 +105,7 @@ header h1 {
 }
 
 
-.buttonContact {
+.buttonKøb {
     background-color: #60c960;
     color: #982328;
     display: inline-block;
@@ -116,7 +119,7 @@ header h1 {
     
 }
 
-.buttonContact:hover {
+.buttonKøb:hover {
     background-color: white;
     color: #982328;
     transition: all 0.5s ease;
@@ -436,7 +439,6 @@ header h1 {
 
 /* mediakanal posts */
 
-/* projekt posts: */
 
 .postSection {
     width: 100%;
